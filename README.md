@@ -2,6 +2,13 @@ Looking for maintainers
 -----------------------
 Please see: https://github.com/nicolasbize/magicsuggest/issues/307
 
+MagicSuggest v3.0.0
+--------------------------
+MagicSuggest now has bootstrap 3 build. The npm is updated to semver.
+2.1.4 is really breaking changes and must be 3.0.0
+Added packaging script options.
+
+
 MagicSuggest v2.0.0
 --------------------------
 MagicSuggest has a new home here: http://nicolasbize.com/magicsuggest/
