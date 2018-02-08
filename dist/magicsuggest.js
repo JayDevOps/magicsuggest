@@ -4,8 +4,8 @@
  *
  * Author:       Nicolas Bize
  * Created:      Feb 8th 2013
- * Last Updated: Oct 16th 2014
- * Version:      2.1.4
+ * Last Updated: Feb 08th 2018
+ * Version:      3.0.0
  * Licence:      MagicSuggest is licenced under MIT licence (http://opensource.org/licenses/MIT)
  */
 (function($)
@@ -106,7 +106,7 @@
             /**
              * Name of JSON object property displayed in the combo list
              */
-            displayField: 'name',
+            displayField: 'displayName',
 
             /**
              * Set to false if you only want mouse interaction. In that case the combo will
@@ -878,6 +878,8 @@
                 // holds the input field
                 ms.input = $('<input/>', $.extend({
                     type: 'text',
+                    id: cfg.id + "_input",
+                    name: cfg.name + "_input",
                     'class': cfg.editable === true ? '' : ' ms-input-readonly',
                     readonly: !cfg.editable,
                     placeholder: cfg.placeholder,
